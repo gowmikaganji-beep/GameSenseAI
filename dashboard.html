@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GameMind AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<header>
+  <h1>🤖 GameMind AI</h1>
+  <button onclick="toggleTheme()">🌗</button>
+</header>
+
+<section>
+  <h2>How are you feeling?</h2>
+
+  <button onclick="getRecommendation('Relaxing')">😌 Relax</button>
+  <button onclick="getRecommendation('Competitive')">🔥 Competitive</button>
+  <button onclick="getRecommendation('Story')">🎭 Story</button>
+
+  <button onclick="startVoice()">🎙️ Voice Input</button>
+</section>
+
+<div id="ai-output"></div>
+<div id="trailer"></div>
+
+<script src="particles.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
